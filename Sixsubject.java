@@ -1,0 +1,28 @@
+import java.util.*;
+class Sixsubjects
+{
+     public static void main(String args[])
+     {
+          Scanner sc=new Scanner(System.in)
+          int m1,m2,m3,m4,m5;
+          float avg;
+          
+         System.out.println("enter the 6 subject marks")
+         m1=sc.nextInt();
+         m2=sc.nextInt();
+         m3=sc.nextInt();
+         m4=sc.nextInt();
+         m5=sc.nextInt();
+         
+         percentage=m1+m2+m3+m4+m5*100/500
+         
+         if(per>60)
+         System.out.println("frist division");
+         if(per<50&&>59)
+         System.out.println("second division");
+         if(per<40&&>49)
+         System.out.println("third division");
+         elseif(per<40)
+         System.out.println("fail");
+    }
+}
